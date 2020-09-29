@@ -11,11 +11,24 @@ title: CV - Jimmy Börjesson
 
   <% data.experience.each do |company, details| %>
     <article>
-      <h3><%= details.fetch(:start) %> - <%= details.end || t("experience.ongoing") %>: <%= details.company_name %></h3>
+      <h3><%= details.fetch(:start) %> - <%= details.end || t("experience.ongoing") %>: <%= details.name %></h3>
 
       <p><%= t("experience.project") %>: <%= t(:project, scope: [:experience, company]) %>
       <p><%= t("experience.role") %>:    <%= t(:role, scope: [:experience, company]) %>
       <p><%= t("experience.benefit") %>: <%= t(:benefit, scope: [:experience, company]) %>
+      <p><%= t("experience.tech") %>:    <%= details.tech.join(", ") %>
+    </article>
+  <% end %>
+</section>
+
+<section>
+  <h2><%= t("education.title") %></h2>
+
+  <% data.education.each do |school, details| %>
+    <article>
+      <h3><%= details.fetch(:start) %> - <%= details.fetch(:end) %>: <%= t(:name, scope: [:education, school]) %></h3>
+
+      <p><%= t(:description, scope: [:education, school]) %>
       <p><%= t("experience.tech") %>:    <%= details.tech.join(", ") %>
     </article>
   <% end %>

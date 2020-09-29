@@ -3,6 +3,7 @@ sv:
   title: CV - Jimmy Börjesson
   tagline: Erfaren, ung systemutvecklare med sinne för kvalitet och kommunikation.
   filename: CV (SV) - Jimmy Börjesson
+
   experience:
     title: Erfarenhet
     ongoing: Pågående
@@ -62,3 +63,14 @@ sv:
       project: Uppgradera operativsystemet på samtliga gymnasieskolans datorer.
       role: Jimmy var en del av ett team av 4 IT-tekniker som skötte uppgraderingen under sommaren då skolan stod tom.
       benefit: Uppdraget utfördes mer än dubbelt så snabbt som planerat, vilket ledde till att Jimmy inte hade något jobb under sensommaren.
+
+  education:
+    title: Utbildning
+
+    linnaeus_university:
+      name: Linnéuniversitetet
+      description: En mycket praktisk utbildning med stort fokus på projekt, växlat med teoretiska ämnen som Designmönster, Projektledning (Scrum), Objektorienterad Analys och Design med UML, m.m.
+
+    portalens_gymnasium:
+      name: Portalens Gymnasium
+      description: En gymnasieskola med starkt fokus på nätverk, IT-samordning och programmering. Här väcktes mitt intresse för mjukvaruutveckling.

@@ -1,0 +1,19 @@
+linnaeus_university:
+  start: 2012
+  end: 2014
+  tech:
+    - C#/ASP.NET MVC
+    - Python/Django
+    - Ruby/Rails
+    - JavaScript
+    - PHP
+
+portalens_gymnasium:
+  start: 2009
+  end: 2012
+  tech:
+    - Java
+    - PHP
+    - HTML
+    - CSS
+    - JavaScript

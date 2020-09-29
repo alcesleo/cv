@@ -3,6 +3,7 @@ en:
   title: CV - Jimmy Börjesson
   tagline: Experienced, young systems developer with a passion for quality and communication.
   filename: CV (EN) - Jimmy Börjesson
+
   experience:
     title: Experience
     ongoing: Ongoing
@@ -61,3 +62,14 @@ en:
       project: Upgrade the operating system on all the computers owned by the school.
       role: Jimmy was part of a team of 4 IT-technicians who did the upgrade during the summer when the school was empty.
       benefit: The project was done after less than half of the allotted time, which unfortunately rendered Jimmy without a job for the rest of the summer.
+
+  education:
+    title: Utbildning
+
+    linnaeus_university:
+      name: Linnaeus University
+      description: A very practical education with a strong focus on projects, weaving theoretical subjects such as Design Patterns, Project Management, Scrum, and Object Oriented Analysis and Design into the mix.
+
+    portalens_gymnasium:
+      name: Portalens Gymnasium
+      description: A high school education with a strong focus on networking, IT-coordination, and programming. This is where my passion for programming took hold.

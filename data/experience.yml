@@ -1,5 +1,5 @@
 opatus:
-  company_name: Opatus AB
+  name: Opatus AB
   start: 2020-07
   tech:
     - Ruby/Rails
@@ -10,7 +10,7 @@ opatus:
     - Python
 
 mentice-cloud:
-  company_name: Mentice AB
+  name: Mentice AB
   start: 2019-10
   end: 2020-05
 
@@ -30,7 +30,7 @@ mentice-cloud:
     - ElasticSearch
 
 mentice-admin:
-  company_name: Mentice AB
+  name: Mentice AB
   start: 2018-10
   end:
   tech:
@@ -42,7 +42,7 @@ mentice-admin:
     - TDD
 
 business-flow:
-  company_name: BitAddict AB
+  name: BitAddict AB
   start: 2019-09
   end: 2020-02
   tech:
@@ -51,7 +51,7 @@ business-flow:
     - React
 
 consilium-aras:
-  company_name: Consilium AB
+  name: Consilium AB
   start: 2018-10
   end: 2019-09
   tech:
@@ -62,7 +62,7 @@ consilium-aras:
     - JavaScript
 
 saab-safe:
-  company_name: Saab AB
+  name: Saab AB
   start: 2018-04
   end: 2018-09
   tech:
@@ -72,7 +72,7 @@ saab-safe:
     - IIS
 
 dawanda:
-  company_name: DaWanda GmbH
+  name: DaWanda GmbH
   start: 2016-03
   end: 2018-01
   tech:
@@ -85,7 +85,7 @@ dawanda:
     - TDD
 
 door2door:
-  company_name: Door2Door GmbH
+  name: Door2Door GmbH
   start: 2014-11
   end: 2015-11
   tech:
@@ -98,7 +98,7 @@ door2door:
     - TDD
 
 molndal-energi:
-  company_name: Mölndal Energi AB
+  name: Mölndal Energi AB
   start: 2012-08
   end: 2013-06
   tech:
@@ -107,7 +107,7 @@ molndal-energi:
     - AutoHotKey
 
 lerums-gymnasium:
-  company_name: Lerums Gymnasium
+  name: Lerums Gymnasium
   start: 2012-06
   end: 2012-08
   tech:

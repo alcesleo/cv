@@ -4,6 +4,19 @@ en:
   tagline: Experienced, young systems developer with a passion for quality and communication.
   filename: CV (EN) - Jimmy Börjesson
 
+  contact: Contact
+
+  presentation:
+    paragraphs:
+      - Jimmy is an enthusiastic and methodical developer with a focus on web development and backend development. He has over 10 years of programming experience, and has worked as a systems developer for 6 years in both Germany and Sweden. Throughout his career he has worked with a wide variety of programming languages and stacks, both as a member of large development teams, as well as single-handedly developing and maintaining projects.
+      - Today he is passionate about full stack development using TypeScript, Python, Go, AWS, Docker and other exciting new technologies - preferably with a cloud focus.
+      - In his daily work he makes sure to find out what the client really needs. He writes robust, simple, and maintainable code, driven to find elegant solutions to difficult problems which make a difference where it matters.
+
+  personal:
+    title: Roles
+    paragraphs:
+      - Jimmy works well in development teams and contributes technical knowledge, drive, and support making his co-workers more productive. He is experienced in test driven, agile development and pair programming which benefits his work whether it’s a small project as a single developer or as the technical leader of a team.
+
   experience:
     title: Experience
     ongoing: Ongoing

@@ -4,7 +4,32 @@ title: CV - Jimmy Börjesson
 
 <header>
   <h1><%= t(:title) %></h1>
+
+  <img alt="Portrait" src="/images/portrait.jpg" style="width: 20%; float: right;" />
 </header>
+
+<section>
+  <h2><%= t(:contact) %></h2>
+
+  <address>
+    <a href="mailto:<%= data.general.contact.email %>"><%= data.general.contact.email %></a><br>
+    <a href="tel:<%= data.general.contact.phone %>"><%= data.general.contact.phone %></a><br>
+  </address>
+</section>
+
+<section>
+  <article>
+    <% t("presentation.paragraphs").each do |paragraph| %>
+      <p><%= paragraph %></p>
+    <% end %>
+
+    <h2><%= t("personal.title") %></h2>
+
+    <% t("personal.paragraphs").each do |paragraph| %>
+      <p><%= paragraph %></p>
+    <% end %>
+  </article>
+</section>
 
 <section>
   <h2><%= t("experience.title") %></h2>
@@ -14,9 +39,9 @@ title: CV - Jimmy Börjesson
       <h3><%= details.fetch(:start) %> - <%= details.end || t("experience.ongoing") %>: <%= details.name %></h3>
 
       <p><%= t("experience.project") %>: <%= t(:project, scope: [:experience, company]) %>
-      <p><%= t("experience.role") %>:    <%= t(:role, scope: [:experience, company]) %>
+      <p><%= t("experience.role") %>: <%= t(:role, scope: [:experience, company]) %>
       <p><%= t("experience.benefit") %>: <%= t(:benefit, scope: [:experience, company]) %>
-      <p><%= t("experience.tech") %>:    <%= details.tech.join(", ") %>
+      <p><%= t("experience.tech") %>: <%= details.tech.join(", ") %>
     </article>
   <% end %>
 </section>
@@ -29,7 +54,7 @@ title: CV - Jimmy Börjesson
       <h3><%= details.fetch(:start) %> - <%= details.fetch(:end) %>: <%= t(:name, scope: [:education, school]) %></h3>
 
       <p><%= t(:description, scope: [:education, school]) %>
-      <p><%= t("experience.tech") %>:    <%= details.tech.join(", ") %>
+      <p><%= t("experience.tech") %>: <%= details.tech.join(", ") %>
     </article>
   <% end %>
 </section>

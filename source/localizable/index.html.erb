@@ -1,0 +1,22 @@
+---
+title: CV - Jimmy Börjesson
+---
+
+<header>
+  <h1><%= t(:title) %></h1>
+</header>
+
+<section>
+  <h2><%= t("experience.title") %></h2>
+
+  <% data.experience.each do |company, details| %>
+    <article>
+      <h3><%= details.fetch(:start) %> - <%= details.end || t("experience.ongoing") %>: <%= details.company_name %></h3>
+
+      <p><%= t("experience.project") %>: <%= t(:project, scope: [:experience, company]) %>
+      <p><%= t("experience.role") %>:    <%= t(:role, scope: [:experience, company]) %>
+      <p><%= t("experience.benefit") %>: <%= t(:benefit, scope: [:experience, company]) %>
+      <p><%= t("experience.tech") %>:    <%= details.tech.join(", ") %>
+    </article>
+  <% end %>
+</section>

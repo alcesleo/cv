@@ -1,0 +1,116 @@
+opatus:
+  company_name: Opatus AB
+  start: 2020-07
+  tech:
+    - Ruby/Rails
+    - Linux
+    - Debian
+    - MySQL
+    - Stripe
+    - Python
+
+mentice-cloud:
+  company_name: Mentice AB
+  start: 2019-10
+  end: 2020-05
+
+  tech:
+    - JavaScript
+    - TypeScript
+    - NodeJS
+    - React
+    - AWS
+    - CI/CD
+    - Postgres
+    - Docker
+    - Keycloak
+    - C++
+    - Qt
+    - MS Visual Studio
+    - ElasticSearch
+
+mentice-admin:
+  company_name: Mentice AB
+  start: 2018-10
+  end:
+  tech:
+    - Python
+    - Django
+    - SQLite
+    - JavaScript
+    - Refactoring
+    - TDD
+
+business-flow:
+  company_name: BitAddict AB
+  start: 2019-09
+  end: 2020-02
+  tech:
+    - Azure
+    - ASP.NET MVC
+    - React
+
+consilium-aras:
+  company_name: Consilium AB
+  start: 2018-10
+  end: 2019-09
+  tech:
+    - Aras Innovator PLM
+    - C#/.NET
+    - MS SQL Server
+    - XML
+    - JavaScript
+
+saab-safe:
+  company_name: Saab AB
+  start: 2018-04
+  end: 2018-09
+  tech:
+    - C#/.NET
+    - MS SQL Server
+    - WPF
+    - IIS
+
+dawanda:
+  company_name: DaWanda GmbH
+  start: 2016-03
+  end: 2018-01
+  tech:
+    - Ruby/Rails
+    - MySQL
+    - Docker
+    - Go
+    - Elixir
+    - Jenkins
+    - TDD
+
+door2door:
+  company_name: Door2Door GmbH
+  start: 2014-11
+  end: 2015-11
+  tech:
+    - Ruby
+    - Python
+    - Postgres
+    - PostGIS
+    - GeoJSON
+    - Heroku
+    - TDD
+
+molndal-energi:
+  company_name: Mölndal Energi AB
+  start: 2012-08
+  end: 2013-06
+  tech:
+    - Excel
+    - VBA
+    - AutoHotKey
+
+lerums-gymnasium:
+  company_name: Lerums Gymnasium
+  start: 2012-06
+  end: 2012-08
+  tech:
+    - USB-minnen
+    - sladdar
+    - tålamod

@@ -8,53 +8,55 @@ title: CV - Jimmy Börjesson
   <img alt="Portrait" src="/images/portrait.jpg" style="width: 20%; float: right;" />
 </header>
 
-<section>
-  <h2><%= t(:contact) %></h2>
+<main>
+  <section>
+    <h2><%= t(:contact) %></h2>
 
-  <address>
-    <a href="mailto:<%= data.general.contact.email %>"><%= data.general.contact.email %></a><br>
-    <a href="tel:<%= data.general.contact.phone %>"><%= data.general.contact.phone %></a><br>
-  </address>
-</section>
+    <address>
+      <a href="mailto:<%= data.general.contact.email %>"><%= data.general.contact.email %></a><br>
+      <a href="tel:<%= data.general.contact.phone %>"><%= data.general.contact.phone %></a><br>
+    </address>
+  </section>
 
-<section>
-  <article>
-    <% t("presentation.paragraphs").each do |paragraph| %>
-      <p><%= paragraph %></p>
-    <% end %>
-
-    <h2><%= t("personal.title") %></h2>
-
-    <% t("personal.paragraphs").each do |paragraph| %>
-      <p><%= paragraph %></p>
-    <% end %>
-  </article>
-</section>
-
-<section>
-  <h2><%= t("experience.title") %></h2>
-
-  <% data.experience.each do |company, details| %>
+  <section>
     <article>
-      <h3><%= details.fetch(:start) %> - <%= details.end || t("experience.ongoing") %>: <%= details.name %></h3>
+      <% t("presentation.paragraphs").each do |paragraph| %>
+        <p><%= paragraph %></p>
+      <% end %>
 
-      <p><%= t("experience.project") %>: <%= t(:project, scope: [:experience, company]) %>
-      <p><%= t("experience.role") %>: <%= t(:role, scope: [:experience, company]) %>
-      <p><%= t("experience.benefit") %>: <%= t(:benefit, scope: [:experience, company]) %>
-      <p><%= t("experience.tech") %>: <%= details.tech.join(", ") %>
+      <h2><%= t("personal.title") %></h2>
+
+      <% t("personal.paragraphs").each do |paragraph| %>
+        <p><%= paragraph %></p>
+      <% end %>
     </article>
-  <% end %>
-</section>
+  </section>
 
-<section>
-  <h2><%= t("education.title") %></h2>
+  <section>
+    <h2><%= t("experience.title") %></h2>
 
-  <% data.education.each do |school, details| %>
-    <article>
-      <h3><%= details.fetch(:start) %> - <%= details.fetch(:end) %>: <%= t(:name, scope: [:education, school]) %></h3>
+    <% data.experience.each do |company, details| %>
+      <article>
+        <h3><%= details.fetch(:start) %> - <%= details.end || t("experience.ongoing") %>: <%= details.name %></h3>
 
-      <p><%= t(:description, scope: [:education, school]) %>
-      <p><%= t("experience.tech") %>: <%= details.tech.join(", ") %>
-    </article>
-  <% end %>
-</section>
+        <p><%= t("experience.project") %>: <%= t(:project, scope: [:experience, company]) %>
+        <p><%= t("experience.role") %>: <%= t(:role, scope: [:experience, company]) %>
+        <p><%= t("experience.benefit") %>: <%= t(:benefit, scope: [:experience, company]) %>
+        <p><%= t("experience.tech") %>: <%= details.tech.join(", ") %>
+      </article>
+    <% end %>
+  </section>
+
+  <section>
+    <h2><%= t("education.title") %></h2>
+
+    <% data.education.each do |school, details| %>
+      <article>
+        <h3><%= details.fetch(:start) %> - <%= details.fetch(:end) %>: <%= t(:name, scope: [:education, school]) %></h3>
+
+        <p><%= t(:description, scope: [:education, school]) %>
+        <p><%= t("experience.tech") %>: <%= details.tech.join(", ") %>
+      </article>
+    <% end %>
+  </section>
+</main>

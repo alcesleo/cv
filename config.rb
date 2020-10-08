@@ -11,6 +11,16 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+# Webpack
+activate :external_pipeline,
+  name: :webpack,
+  command: build? ?
+    './node_modules/webpack/bin/webpack.js --bail' :
+    './node_modules/webpack/bin/webpack.js --watch -d',
+  source: ".tmp/dist",
+  latency: 1
+
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 

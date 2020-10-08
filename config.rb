@@ -3,6 +3,8 @@
 
 activate :i18n, mount_at_root: :sv
 
+activate :livereload
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 

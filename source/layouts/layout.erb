@@ -8,6 +8,7 @@
     <title><%= current_page.data.title %></title>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
+    <%= favicon_tag "/images/favicon-32x32.png" %>
   </head>
   <body>
     <nav class="flex justify-between p-2 print:hidden">
@@ -18,7 +19,6 @@
 
       <button class="p-2 font-bold text-gray-100 bg-green-500 rounded shadow-xs">Download as PDF</button>
     </nav>
-
     <%= yield %>
   </body>
 </html>

@@ -1,8 +1,13 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-activate :i18n, mount_at_root: :sv
+# Don't require .html suffixes to pages
+activate :directory_indexes
 
+# Use /en/ and /sv/ root paths to languages
+activate :i18n, mount_at_root: false
+
+# Autoreload in development mode
 activate :livereload
 
 # Layouts

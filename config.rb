@@ -49,11 +49,12 @@ activate :external_pipeline,
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+helpers do
+  def switch_language(language_code)
+    current_page_without_language_code = "#{current_page.url.gsub(/^\/\w\w\//, '')}"
+    "/#{language_code}/#{current_page_without_language_code}"
+  end
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

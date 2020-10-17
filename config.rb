@@ -7,6 +7,9 @@ activate :directory_indexes
 # Use /en/ and /sv/ root paths to languages
 activate :i18n, mount_at_root: false
 
+# Default language to Swedish
+redirect "index.html", to: "/sv/"
+
 # Autoreload in development mode
 activate :livereload
 

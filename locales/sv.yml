@@ -1,89 +1,87 @@
 ---
 sv:
-  title: CV - Jimmy Börjesson
-  tagline: Erfaren, ung systemutvecklare med sinne för kvalitet och kommunikation.
-  filename: CV (SV) - Jimmy Börjesson
+  cv:
+    title: CV - Jimmy Börjesson
+    tagline: Erfaren, ung systemutvecklare med sinne för kvalitet och kommunikation.
 
-  contact: Kontakt
+    presentation:
+      paragraphs:
+        - Jimmy är en trevlig, entusiastisk och metodisk systemutvecklare med fokus på webbutveckling och backend. Han har programmerat i över 10 år och har 6 års professionell erfarenhet av att arbeta som systemutvecklare i Tyskland och Sverige med många olika programmeringsspråk och teknik-stacker. Han har ingått i stora utvecklingsteam och som ensam utvecklare ansvarat för flera projekt.
+        - Sedan gymnasietiden har hans främsta hobby varit att lära sig mer om programmeringsspråk och utvecklingstekniker. Idag hittar han gärna uppdrag som inte bara utmanar hans förmåga inom fullstack webbutveckling utan också låter honom sätta sig in i ny spännande teknik som AWS, Vue, Tailwind och Go.
+        - Oavsett språk och ramverk skriver han kod som är robust, enkel att förstå och att underhålla, och drivs av att hitta eleganta lösningar på svåra problem som gör skillnad där det verkligen spelar roll.
 
-  presentation:
-    paragraphs:
-      - Jimmy är en trevlig, entusiastisk och metodisk systemutvecklare med fokus på webbutveckling och backend. Han har programmerat i över 10 år och har 6 års professionell erfarenhet av att arbeta som systemutvecklare i Tyskland och Sverige med många olika programmeringsspråk och teknik-stacker. Han har ingått i stora utvecklingsteam och som ensam utvecklare ansvarat för flera projekt.
-      - Sedan gymnasietiden har hans främsta hobby varit att lära sig mer om programmeringsspråk och utvecklingstekniker. Idag hittar han gärna uppdrag som inte bara utmanar hans förmåga inom fullstack webbutveckling utan också låter honom sätta sig in i ny spännande teknik som AWS, Vue, Tailwind och Go.
-      - Oavsett språk och ramverk skriver han kod som är robust, enkel att förstå och att underhålla, och drivs av att hitta eleganta lösningar på svåra problem som gör skillnad där det verkligen spelar roll.
+    personal:
+      title: Roller
+      paragraphs:
+        - Jimmy fungerar väl i utvecklingsteam och bidrar med teknisk kompetens, stort engagemang och stöd för sina kollegors arbete. Han är duktig på metoder som parprogrammering och agil, testdriven utveckling. Han kan också leda projekt, antingen som enskild utvecklare i mindre delprojekt eller som lead developer/scrum master.
 
-  personal:
-    title: Roller
-    paragraphs:
-      - Jimmy fungerar väl i utvecklingsteam och bidrar med teknisk kompetens, stort engagemang och stöd för sina kollegors arbete. Han är duktig på metoder som parprogrammering och agil, testdriven utveckling. Han kan också leda projekt, antingen som enskild utvecklare i mindre delprojekt eller som lead developer/scrum master.
+    experience:
+      title: Erfarenhet
+      ongoing: Pågående
 
-  experience:
-    title: Erfarenhet
-    ongoing: Pågående
+      project: Uppdrag
+      role: Roll
+      benefit: Nytta
+      tech: Teknik
 
-    project: Uppdrag
-    role: Roll
-    benefit: Nytta
-    tech: Teknik
+      opatus:
+        project: Företaget tillhandahåller ett kliniskt test för ADHD med hjälp av mobiltelefon. Verktyget som används för att administrera tester har eftersatt underhåll sedan 2014, och är i behov av att portas till nyare versioner för att kunna vidareutvecklas.
+        role: Systemutvecklare med ansvar för företagets kliniska administrationsverktyg och Ruby-expert.
+        benefit: Företaget fick med en begränsad timbudget sin kodbas och produktionsmiljö portad och uppgraderad till de senaste versionerna, och kommit ikapp med uppskjutet underhållsarbete på produkten.
 
-    opatus:
-      project: Företaget tillhandahåller ett kliniskt test för ADHD med hjälp av mobiltelefon. Verktyget som används för att administrera tester har eftersatt underhåll sedan 2014, och är i behov av att portas till nyare versioner för att kunna vidareutvecklas.
-      role: Systemutvecklare med ansvar för företagets kliniska administrationsverktyg och Ruby-expert.
-      benefit: Företaget fick med en begränsad timbudget sin kodbas och produktionsmiljö portad och uppgraderad till de senaste versionerna, och kommit ikapp med uppskjutet underhållsarbete på produkten.
+      mentice-cloud:
+        position: Tech Lead
+        project: Nyutveckling av en molnbaserad lärplattform med stöd för simulation av endovaskulära kirurgiska ingrepp.
+        role: Tech lead med helhetsansvar för utveckling av MVP:n.
+        benefit: Företaget har under Jimmys tekniska ledning utvecklat en MVP som visar nyttan med produkten och kan demonstreras och vidareutvecklas till att helt ersätta legacy-systemet. Detta har involverat att utveckla och driva en server på AWS med CI/CD, integrera med både den fysiska simulatorn genom Qt och till externa webbtjänster över REST och OpenID Connect, utveckla en responsiv web-frontend, samt samarbeta med designers och frontendutvecklare så de kunnat leverera en grym användarupplevelse på en komplex plattform.
 
-    mentice-cloud:
-      position: Tech Lead
-      project: Nyutveckling av en molnbaserad lärplattform med stöd för simulation av endovaskulära kirurgiska ingrepp.
-      role: Tech lead med helhetsansvar för utveckling av MVP:n.
-      benefit: Företaget har under Jimmys tekniska ledning utvecklat en MVP som visar nyttan med produkten och kan demonstreras och vidareutvecklas till att helt ersätta legacy-systemet. Detta har involverat att utveckla och driva en server på AWS med CI/CD, integrera med både den fysiska simulatorn genom Qt och till externa webbtjänster över REST och OpenID Connect, utveckla en responsiv web-frontend, samt samarbeta med designers och frontendutvecklare så de kunnat leverera en grym användarupplevelse på en komplex plattform.
+      mentice-admin:
+        project: Underhåll och vidareutveckling av ett administrationsverktyg till företagets främsta produkt, en simulator för endovaskulära kirurgiska ingrepp.
+        role: Systemutvecklare med huvudsakligt ansvar för ett administrativt verktyg som företaget tillhandahåller.
+        benefit: Företaget kunde släppa flera nya versioner av sitt administrationsverktyg som i huvudsak var utvecklade av Jimmy, dessa förbättrade stabiliteten, och lade till efterfrågade nya funktioner. Dessutom tillkom enhetstestning för all ny funktionalitet, och även all gammal funktionalitet som berördes vid buggfixar och ledde till en mycket stabilare kodbas med färre fel och högre konfidens vid release.
 
-    mentice-admin:
-      project: Underhåll och vidareutveckling av ett administrationsverktyg till företagets främsta produkt, en simulator för endovaskulära kirurgiska ingrepp.
-      role: Systemutvecklare med huvudsakligt ansvar för ett administrativt verktyg som företaget tillhandahåller.
-      benefit: Företaget kunde släppa flera nya versioner av sitt administrationsverktyg som i huvudsak var utvecklade av Jimmy, dessa förbättrade stabiliteten, och lade till efterfrågade nya funktioner. Dessutom tillkom enhetstestning för all ny funktionalitet, och även all gammal funktionalitet som berördes vid buggfixar och ledde till en mycket stabilare kodbas med färre fel och högre konfidens vid release.
+      business-flow:
+        project: Utveckla en proprietär webbtjänst med fokus på affärsnytta.
+        role: Lead Developer med ansvar för teknikval och prioriteringar för andra utvecklare i projektet.
+        benefit: Projektet kunde effektivt nyttja lediga timmar från ett flertal andra konsulter. Med en teknisk röd tråd från Jimmy utfördes projektet ekonomiskt och med lite overhead.
 
-    business-flow:
-      project: Utveckla en proprietär webbtjänst med fokus på affärsnytta.
-      role: Lead Developer med ansvar för teknikval och prioriteringar för andra utvecklare i projektet.
-      benefit: Projektet kunde effektivt nyttja lediga timmar från ett flertal andra konsulter. Med en teknisk röd tråd från Jimmy utfördes projektet ekonomiskt och med lite overhead.
+      consilium-aras:
+        project: Utveckling och support av tillägg till Aras Innovator PLM för att förenkla företagets hantering av hårdvarukomponenter.
+        role: Ensam utvecklare med ansvar för utveckling och underhåll av företagets anpassningar av Aras Innovator PLM.
+        benefit: Jimmy har tagit ansvar för att löpande se till att systemet är i drift och tagit hand om buggar och support, samt själv utvecklat ett tillägg för att förenkla vissa arbetsflöden som nu används av företaget.
 
-    consilium-aras:
-      project: Utveckling och support av tillägg till Aras Innovator PLM för att förenkla företagets hantering av hårdvarukomponenter.
-      role: Ensam utvecklare med ansvar för utveckling och underhåll av företagets anpassningar av Aras Innovator PLM.
-      benefit: Jimmy har tagit ansvar för att löpande se till att systemet är i drift och tagit hand om buggar och support, samt själv utvecklat ett tillägg för att förenkla vissa arbetsflöden som nu används av företaget.
+      saab-safe:
+        project: Utveckling och uppgradering av en Command and Control-plattform som används för säker kommunikation och styrning av enheter främst inom polisverksamhet, flygplatssäkerhet och fängelser.
+        role: Jimmy ingick i ett team som ansvarade för utveckling av produktens kärnfunktionalitet under en tid med hög press på leverans av ett kundprojekt, samt deltog i acceptanstestning och leverans på plats hos kunden i England.
+        benefit: Produktens stabilitet ökades och nya krav på funktionalitet möttes inom tidsramen för projektet.
 
-    saab-safe:
-      project: Utveckling och uppgradering av en Command and Control-plattform som används för säker kommunikation och styrning av enheter främst inom polisverksamhet, flygplatssäkerhet och fängelser.
-      role: Jimmy ingick i ett team som ansvarade för utveckling av produktens kärnfunktionalitet under en tid med hög press på leverans av ett kundprojekt, samt deltog i acceptanstestning och leverans på plats hos kunden i England.
-      benefit: Produktens stabilitet ökades och nya krav på funktionalitet möttes inom tidsramen för projektet.
+      dawanda:
+        project: Företaget drev en webbplattform för e-handel som kopplade köpare och säljare av hemgjorda DIY-artiklar till varandra. Arbetet omfattade skalning av systemet till många tusen dagliga användare, och driftsättning av nya versioner utan nedtid.
+        role: Jimmy ingick i ett utvecklingsteam av cirka 30 utvecklare och fokuserade på att öka kodbasens kvalitet och testbarhet.
+        benefit: Systemets stabilitet ökade markant, från att ha signifikant nedtid nästan varje vecka till att inte ha enstaka minuter nedtid på flera månader, samtidigt som komplex funktionalitet av kritiskt värde kunde utvecklas och levereras inom deadline.
 
-    dawanda:
-      project: Företaget drev en webbplattform för e-handel som kopplade köpare och säljare av hemgjorda DIY-artiklar till varandra. Arbetet omfattade skalning av systemet till många tusen dagliga användare, och driftsättning av nya versioner utan nedtid.
-      role: Jimmy ingick i ett utvecklingsteam av cirka 30 utvecklare och fokuserade på att öka kodbasens kvalitet och testbarhet.
-      benefit: Systemets stabilitet ökade markant, från att ha signifikant nedtid nästan varje vecka till att inte ha enstaka minuter nedtid på flera månader, samtidigt som komplex funktionalitet av kritiskt värde kunde utvecklas och levereras inom deadline.
+      door2door:
+        project: Door2Door är en startup i Berlin inom transportsektorn som tillhandahåller en app som föreslår rutter från A till B med diverse transportmedel såsom kollektivtrafik, cykelhyra, bilpooler, taxi, Uber, osv. Arbetet involverade att utveckla nya integrationer till externa system för att utöka och förbättra backend-API:t.
+        role: Jimmy ingick i backend-teamet som ansvarade för att pålitligt tillhandahålla rutter och platsdata till de mobila klienterna och ständigt integrera nya transportmedel och städer i systemet.
+        benefit: Flera nya transportmedel integrerades i plattformen, och testflödet förbättrades markant vilket ökade hela teamets produktivitet.
 
-    door2door:
-      project: Door2Door är en startup i Berlin inom transportsektorn som tillhandahåller en app som föreslår rutter från A till B med diverse transportmedel såsom kollektivtrafik, cykelhyra, bilpooler, taxi, Uber, osv. Arbetet involverade att utveckla nya integrationer till externa system för att utöka och förbättra backend-API:t.
-      role: Jimmy ingick i backend-teamet som ansvarade för att pålitligt tillhandahålla rutter och platsdata till de mobila klienterna och ständigt integrera nya transportmedel och städer i systemet.
-      benefit: Flera nya transportmedel integrerades i plattformen, och testflödet förbättrades markant vilket ökade hela teamets produktivitet.
+      molndal-energi:
+        project: Löpande korrigera och föra över kunddata till en intern databas som levererades till företaget i form av stora Excel-filer.
+        role: Jimmy var anställd som en resurs för att hinna med att manuellt föra över data, men effektiviserade till stor del bort arbetsuppgifterna med hjälp av automatiseringar.
+        benefit: Arbetet som tidigare varit överväldigande för personalen att hinna med utfördes 2-3 gånger snabbare tack vare hjälpfunktioner som Jimmy utvecklat på eget bevåg. Detta gjorde att flödet av indata med lätthet kunde hanteras av hälften så många anställda som tidigare skött uppgiften.
 
-    molndal-energi:
-      project: Löpande korrigera och föra över kunddata till en intern databas som levererades till företaget i form av stora Excel-filer.
-      role: Jimmy var anställd som en resurs för att hinna med att manuellt föra över data, men effektiviserade till stor del bort arbetsuppgifterna med hjälp av automatiseringar.
-      benefit: Arbetet som tidigare varit överväldigande för personalen att hinna med utfördes 2-3 gånger snabbare tack vare hjälpfunktioner som Jimmy utvecklat på eget bevåg. Detta gjorde att flödet av indata med lätthet kunde hanteras av hälften så många anställda som tidigare skött uppgiften.
+      lerums-gymnasium:
+        project: Uppgradera operativsystemet på samtliga gymnasieskolans datorer.
+        role: Jimmy var en del av ett team av 4 IT-tekniker som skötte uppgraderingen under sommaren då skolan stod tom.
+        benefit: Uppdraget utfördes mer än dubbelt så snabbt som planerat, vilket ledde till att Jimmy inte hade något jobb under sensommaren.
 
-    lerums-gymnasium:
-      project: Uppgradera operativsystemet på samtliga gymnasieskolans datorer.
-      role: Jimmy var en del av ett team av 4 IT-tekniker som skötte uppgraderingen under sommaren då skolan stod tom.
-      benefit: Uppdraget utfördes mer än dubbelt så snabbt som planerat, vilket ledde till att Jimmy inte hade något jobb under sensommaren.
+    education:
+      title: Utbildning
 
-  education:
-    title: Utbildning
+      linnaeus_university:
+        name: Linnéuniversitetet
+        description: En mycket praktisk utbildning med stort fokus på projekt, växlat med teoretiska ämnen som Designmönster, Projektledning (Scrum), Objektorienterad Analys och Design med UML, m.m.
 
-    linnaeus_university:
-      name: Linnéuniversitetet
-      description: En mycket praktisk utbildning med stort fokus på projekt, växlat med teoretiska ämnen som Designmönster, Projektledning (Scrum), Objektorienterad Analys och Design med UML, m.m.
-
-    portalens_gymnasium:
-      name: Portalens Gymnasium
-      description: En gymnasieskola med starkt fokus på nätverk, IT-samordning och programmering. Här väcktes mitt intresse för mjukvaruutveckling.
+      portalens_gymnasium:
+        name: Portalens Gymnasium
+        description: En gymnasieskola med starkt fokus på nätverk, IT-samordning och programmering. Här väcktes mitt intresse för mjukvaruutveckling.

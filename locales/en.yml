@@ -1,88 +1,86 @@
 ---
 en:
-  title: CV - Jimmy Börjesson
-  tagline: Experienced, young systems developer with a passion for quality and communication.
-  filename: CV (EN) - Jimmy Börjesson
+  cv:
+    title: CV - Jimmy Börjesson
+    tagline: Experienced, young systems developer with a passion for quality and communication.
 
-  contact: Contact
+    presentation:
+      paragraphs:
+        - Jimmy is an enthusiastic and methodical developer with a focus on web development and backend development. He has over 10 years of programming experience, and has worked as a systems developer for 6 years in both Germany and Sweden. Throughout his career he has worked with a wide variety of programming languages and stacks, both as a member of large development teams, as well as single-handedly developing and maintaining projects.
+        - Today he is passionate about full stack development using TypeScript, Python, Go, AWS, Docker and other exciting new technologies - preferably with a cloud focus.
+        - In his daily work he makes sure to find out what the client really needs. He writes robust, simple, and maintainable code, driven to find elegant solutions to difficult problems which make a difference where it matters.
 
-  presentation:
-    paragraphs:
-      - Jimmy is an enthusiastic and methodical developer with a focus on web development and backend development. He has over 10 years of programming experience, and has worked as a systems developer for 6 years in both Germany and Sweden. Throughout his career he has worked with a wide variety of programming languages and stacks, both as a member of large development teams, as well as single-handedly developing and maintaining projects.
-      - Today he is passionate about full stack development using TypeScript, Python, Go, AWS, Docker and other exciting new technologies - preferably with a cloud focus.
-      - In his daily work he makes sure to find out what the client really needs. He writes robust, simple, and maintainable code, driven to find elegant solutions to difficult problems which make a difference where it matters.
+    personal:
+      title: Roles
+      paragraphs:
+        - Jimmy works well in development teams and contributes technical knowledge, drive, and support making his co-workers more productive. He is experienced in test driven, agile development and pair programming which benefits his work whether it’s a small project as a single developer or as the technical leader of a team.
 
-  personal:
-    title: Roles
-    paragraphs:
-      - Jimmy works well in development teams and contributes technical knowledge, drive, and support making his co-workers more productive. He is experienced in test driven, agile development and pair programming which benefits his work whether it’s a small project as a single developer or as the technical leader of a team.
+    experience:
+      title: Experience
+      ongoing: Ongoing
 
-  experience:
-    title: Experience
-    ongoing: Ongoing
+      project: Project
+      role: Role
+      benefit: Benefit
+      tech: Technologies
 
-    project: Project
-    role: Role
-    benefit: Benefit
-    tech: Technologies
+      opatus:
+        project: The company is providing a clinical ADHD-test administered using an iOS device. The administration interface is a Ruby on Rails site which has not been maintained since 2014, and is of dire need of upgrading and porting to current versions of libraries and frameworks to enable further development.
+        role: Developer with responsibility for the administration tool and resident Ruby expert.
+        benefit: With a limited budget, Jimmy was able to upgrade the code base and production environment to the latest versions, and caught up with long postponed maintenance work required to keep the product stable and secure.
 
-    opatus:
-      project: The company is providing a clinical ADHD-test administered using an iOS device. The administration interface is a Ruby on Rails site which has not been maintained since 2014, and is of dire need of upgrading and porting to current versions of libraries and frameworks to enable further development.
-      role: Developer with responsibility for the administration tool and resident Ruby expert.
-      benefit: With a limited budget, Jimmy was able to upgrade the code base and production environment to the latest versions, and caught up with long postponed maintenance work required to keep the product stable and secure.
+      mentice-cloud:
+        project: Developing and integrating a cloud-based learning platform supporting the company’s endovascular surgery simulator.
+        role: Tech lead responsible for the development of the platform, and backend developer on the team.
+        benefit: An MVP was created, demonstrating the most important use cases and serving as a solid foundation for further development, and approaching the capabilities of fully replacing the legacy system.
 
-    mentice-cloud:
-      project: Developing and integrating a cloud-based learning platform supporting the company’s endovascular surgery simulator.
-      role: Tech lead responsible for the development of the platform, and backend developer on the team.
-      benefit: An MVP was created, demonstrating the most important use cases and serving as a solid foundation for further development, and approaching the capabilities of fully replacing the legacy system.
+      mentice-admin:
+        project: Maintenance and development of an administration tool managing the company’s endovascular surgery simulator.
+        role: Sole developer responsible for maintaining the administration tool.
+        benefit: Several releases of the administration tool were developed, improving stability and adding requested new functionality.
 
-    mentice-admin:
-      project: Maintenance and development of an administration tool managing the company’s endovascular surgery simulator.
-      role: Sole developer responsible for maintaining the administration tool.
-      benefit: Several releases of the administration tool were developed, improving stability and adding requested new functionality.
+      business-flow:
+        project: Develop a proprietary web-app focusing on business value.
+        role: Lead Developer responsible for technological choices, priorities and supporting junior developers working on the project.
+        benefit: The project could efficiently utilize available hours from several other consultants moving on and off the project within the company to bring the project forward, with Jimmy’s technical leadership and direction keeping the work coherent.
 
-    business-flow:
-      project: Develop a proprietary web-app focusing on business value.
-      role: Lead Developer responsible for technological choices, priorities and supporting junior developers working on the project.
-      benefit: The project could efficiently utilize available hours from several other consultants moving on and off the project within the company to bring the project forward, with Jimmy’s technical leadership and direction keeping the work coherent.
+      consilium-aras:
+        project: Supporting and developing extensions and customizations of Aras Innovator PLM to make it easier to track and manage hardware components used in the company’s products.
+        role: Sole developer responsible for maintaining the PLM system.
+        benefit: Jimmy has stayed on top of ongoing maintenance issues, bugs, and support, as well as developing an extension to simplify some workflows used by the company, and helping to answer questions using their SQL database.
 
-    consilium-aras:
-      project: Supporting and developing extensions and customizations of Aras Innovator PLM to make it easier to track and manage hardware components used in the company’s products.
-      role: Sole developer responsible for maintaining the PLM system.
-      benefit: Jimmy has stayed on top of ongoing maintenance issues, bugs, and support, as well as developing an extension to simplify some workflows used by the company, and helping to answer questions using their SQL database.
+      saab-safe:
+        project: Developing and upgrading the company’s Command and Control-platform primarily used by police, airport security, and prison security for secure communication and dispatch from control rooms.
+        role: Jimmy was a part of the team in charge of developing the product’s core functionality during a period of high pressure to deliver a customer integration. He improved automatic testing of the code base, and did acceptance testing on site at a police station in England.
+        benefit: Increased stability of the system, while new requirements were met within narrow time constraints.
 
-    saab-safe:
-      project: Developing and upgrading the company’s Command and Control-platform primarily used by police, airport security, and prison security for secure communication and dispatch from control rooms.
-      role: Jimmy was a part of the team in charge of developing the product’s core functionality during a period of high pressure to deliver a customer integration. He improved automatic testing of the code base, and did acceptance testing on site at a police station in England.
-      benefit: Increased stability of the system, while new requirements were met within narrow time constraints.
+      dawanda:
+        project: The company ran an e-commerce platform connecting buyers and sellers of home-made goods. The work consisted of tackling scaling issues as the number of users grew, and refactoring and adding new functionality without causing downtime.
+        role: Jimmy was employed as part of a development team of 30, and focused on improving the quality and testability of the code base.
+        benefit: The stability of the system markedly improved from having significant downtime almost every week to just a few minutes per month. Meanwhile, complex functionality could be developed and delivered as developer productivity increased.
 
-    dawanda:
-      project: The company ran an e-commerce platform connecting buyers and sellers of home-made goods. The work consisted of tackling scaling issues as the number of users grew, and refactoring and adding new functionality without causing downtime.
-      role: Jimmy was employed as part of a development team of 30, and focused on improving the quality and testability of the code base.
-      benefit: The stability of the system markedly improved from having significant downtime almost every week to just a few minutes per month. Meanwhile, complex functionality could be developed and delivered as developer productivity increased.
+      door2door:
+        project: Door2Door is a Berlin startup in the transport sector. It primarily provides an app that suggests routes from A to B using a wide variety of transportation options such as public transport, bike sharing, car sharing, taxi, Uber, etc.
+        role: Junior backend developer working on the REST API and writing integrations for transportation providers to launch in new cities.
+        benefit: Several new transport options were integrated into the platform, and inspiring better testing practices lifted the entire team’s productivity.
 
-    door2door:
-      project: Door2Door is a Berlin startup in the transport sector. It primarily provides an app that suggests routes from A to B using a wide variety of transportation options such as public transport, bike sharing, car sharing, taxi, Uber, etc.
-      role: Junior backend developer working on the REST API and writing integrations for transportation providers to launch in new cities.
-      benefit: Several new transport options were integrated into the platform, and inspiring better testing practices lifted the entire team’s productivity.
+      molndal-energi:
+        project: Correct and enter incoming customer data in an internal system delivered in huge Excel-files.
+        role: Jimmy was employed as an extra resource needed to keep up with all the incoming data. He was able to automate much of the work using some scripting tools.
+        benefit: Using Jimmy’s scripts, what previously was an overwhelming amount of work for up to 4 people could be easily managed with half the staff.
 
-    molndal-energi:
-      project: Correct and enter incoming customer data in an internal system delivered in huge Excel-files.
-      role: Jimmy was employed as an extra resource needed to keep up with all the incoming data. He was able to automate much of the work using some scripting tools.
-      benefit: Using Jimmy’s scripts, what previously was an overwhelming amount of work for up to 4 people could be easily managed with half the staff.
+      lerums-gymnasium:
+        project: Upgrade the operating system on all the computers owned by the school.
+        role: Jimmy was part of a team of 4 IT-technicians who did the upgrade during the summer when the school was empty.
+        benefit: The project was done after less than half of the allotted time, which unfortunately rendered Jimmy without a job for the rest of the summer.
 
-    lerums-gymnasium:
-      project: Upgrade the operating system on all the computers owned by the school.
-      role: Jimmy was part of a team of 4 IT-technicians who did the upgrade during the summer when the school was empty.
-      benefit: The project was done after less than half of the allotted time, which unfortunately rendered Jimmy without a job for the rest of the summer.
+    education:
+      title: Utbildning
 
-  education:
-    title: Utbildning
+      linnaeus_university:
+        name: Linnaeus University
+        description: A very practical education with a strong focus on projects, weaving theoretical subjects such as Design Patterns, Project Management, Scrum, and Object Oriented Analysis and Design into the mix.
 
-    linnaeus_university:
-      name: Linnaeus University
-      description: A very practical education with a strong focus on projects, weaving theoretical subjects such as Design Patterns, Project Management, Scrum, and Object Oriented Analysis and Design into the mix.
-
-    portalens_gymnasium:
-      name: Portalens Gymnasium
-      description: A high school education with a strong focus on networking, IT-coordination, and programming. This is where my passion for programming took hold.
+      portalens_gymnasium:
+        name: Portalens Gymnasium
+        description: A high school education with a strong focus on networking, IT-coordination, and programming. This is where my passion for programming took hold.

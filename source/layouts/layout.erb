@@ -11,14 +11,7 @@
     <%= favicon_tag "/images/favicon-32x32.png" %>
   </head>
   <body>
-    <nav class="flex justify-between p-2 print:hidden">
-      <div class="flex items-center">
-        <a href="<%= switch_language(:sv) %>"><img class="w-10" alt="Flag of Sweden" src="/images/flag-sv.svg" /></a>
-        <a href="<%= switch_language(:en) %>"><img class="w-10 ml-1" alt="Flag of Great Britain" src="/images/flag-en.svg" /></a>
-      </div>
-
-      <button class="p-2 font-bold text-gray-100 bg-green-500 rounded shadow-xs">Download as PDF</button>
-    </nav>
+    <%= partial "navbar" %>
     <%= yield %>
   </body>
 </html>

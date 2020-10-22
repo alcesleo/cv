@@ -5,14 +5,14 @@ sv:
     tagline: Erfaren, ung systemutvecklare med sinne för kvalitet och kommunikation.
 
     presentation:
-      paragraphs:
+      p:
         - Jimmy är en trevlig, entusiastisk och metodisk systemutvecklare med fokus på webbutveckling och backend. Han har programmerat i över 10 år och har 6 års professionell erfarenhet av att arbeta som systemutvecklare i Tyskland och Sverige med många olika programmeringsspråk och teknik-stacker. Han har ingått i stora utvecklingsteam och som ensam utvecklare ansvarat för flera projekt.
         - Sedan gymnasietiden har hans främsta hobby varit att lära sig mer om programmeringsspråk och utvecklingstekniker. Idag hittar han gärna uppdrag som inte bara utmanar hans förmåga inom fullstack webbutveckling utan också låter honom sätta sig in i ny spännande teknik som AWS, Vue, Tailwind och Go.
         - Oavsett språk och ramverk skriver han kod som är robust, enkel att förstå och att underhålla, och drivs av att hitta eleganta lösningar på svåra problem som gör skillnad där det verkligen spelar roll.
 
     personal:
       title: Roller
-      paragraphs:
+      p:
         - Jimmy fungerar väl i utvecklingsteam och bidrar med teknisk kompetens, stort engagemang och stöd för sina kollegors arbete. Han är duktig på metoder som parprogrammering och agil, testdriven utveckling. Han kan också leda projekt, antingen som enskild utvecklare i mindre delprojekt eller som lead developer/scrum master.
 
     experience:

@@ -11,7 +11,9 @@
     <%= favicon_tag "/images/favicon-32x32.png" %>
   </head>
   <body>
-    <%= partial "navbar" %>
-    <%= yield %>
+    <div class="mx-auto max-w-screen-lg">
+      <%= partial "navbar" %>
+      <%= yield %>
+    </div>
   </body>
 </html>

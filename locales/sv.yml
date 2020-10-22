@@ -28,6 +28,11 @@ sv:
       benefit: Nytta
       tech: Teknik
 
+      wideco:
+        project: Styra upp utvecklingen av företagets dashboard där man kan visualisera och arbeta med mätdata från bland annat IoT-sensorer och guidad radar.
+        role: Senior utvecklare med fokus på frontend
+        benefit: Utvecklingstakten har ökat markant, förbättringar i produktens gränssnitt och responsivitet leder till en robustare användarupplevelse, och ett strukturerat arbetssätt med regelbunden planering och demo har införts.
+
       opatus:
         project: Företaget tillhandahåller ett kliniskt test för ADHD med hjälp av mobiltelefon. Verktyget som används för att administrera tester har eftersatt underhåll sedan 2014, och är i behov av att portas till nyare versioner för att kunna vidareutvecklas.
         role: Systemutvecklare med ansvar för företagets kliniska administrationsverktyg och Ruby-expert.

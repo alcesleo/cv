@@ -1,5 +1,9 @@
 ---
 sv:
+  nav:
+    index: Startsida
+    cv: CV
+
   cv:
     title: CV - Jimmy Börjesson
     tagline: Erfaren, ung systemutvecklare med sinne för kvalitet och kommunikation.

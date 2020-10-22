@@ -1,5 +1,9 @@
 ---
 en:
+  nav:
+    index: Home
+    cv: CV
+
   cv:
     title: CV - Jimmy Börjesson
     tagline: Experienced, young systems developer with a passion for quality and communication.

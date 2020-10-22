@@ -4,6 +4,9 @@ sv:
     index: Startsida
     cv: CV
 
+  index:
+    kvadrat: Jag är ansluten till Kvadrat, Sveriges lyckligaste konsulter. Vi erbjuder våra kunder en unik kombination av konsultens expertis och egenföretagarens engagemang, attityd och motivation att alltid lyckas. Kvadrat bildades 1988 och idag är vi ca 500 Kvadratare med kontor i Stockholm, Göteborg, Malmö, Linköping, Norrköping, Jönköping, Växjö, Örebro, Borlänge och Sundsvall.
+
   cv:
     title: CV - Jimmy Börjesson
     tagline: Erfaren, ung systemutvecklare med sinne för kvalitet och kommunikation.

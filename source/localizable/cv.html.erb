@@ -2,7 +2,7 @@
 title: CV - Jimmy Börjesson
 ---
 <div>
-  <header class="mt-4">
+  <header>
     <img class="float-right w-64 rounded-md" alt="Portrait" src="/images/portrait.jpg" />
 
     <h1 class="text-3xl"><%= t("cv.title") %></h1>
@@ -13,10 +13,10 @@ title: CV - Jimmy Börjesson
     <section>
       <article>
         <% t("cv.presentation.p").each do |paragraph| %>
-          <p class="mt-2"><%= paragraph %></p>
+          <p><%= paragraph %></p>
         <% end %>
 
-        <h2 class="mt-4 text-2xl"><%= t("cv.personal.title") %></h2>
+        <h2><%= t("cv.personal.title") %></h2>
 
         <% t("cv.personal.p").each do |paragraph| %>
           <p><%= paragraph %></p>
@@ -25,29 +25,29 @@ title: CV - Jimmy Börjesson
     </section>
 
     <section>
-      <h2 class="mt-4 -mb-4 text-2xl"><%= t("cv.experience.title") %></h2>
+      <h2><%= t("cv.experience.title") %></h2>
 
       <% data.cv.experience.each do |experience_id, experience| %>
         <article>
-          <h3 class="mt-4 text-xl"><%= experience.fetch(:start) %> - <%= experience.end || t("cv.experience.ongoing") %>: <%= experience.name %></h3>
+          <h3><%= experience.fetch(:start) %> - <%= experience.end || t("cv.experience.ongoing") %>: <%= experience.name %></h3>
 
-          <p class="mt-2"><%= t("cv.experience.project") %>: <%= t(:project, scope: [:cv, :experience, experience_id]) %>
-          <p class="mt-2"><%= t("cv.experience.role") %>: <%= t(:role, scope: [:cv, :experience, experience_id]) %>
-          <p class="mt-2"><%= t("cv.experience.benefit") %>: <%= t(:benefit, scope: [:cv, :experience, experience_id]) %>
-          <p class="mt-2"><%= t("cv.experience.tech") %>: <%= experience.tech.join(", ") %>
+          <p><%= t("cv.experience.project") %>: <%= t(:project, scope: [:cv, :experience, experience_id]) %>
+          <p><%= t("cv.experience.role") %>: <%= t(:role, scope: [:cv, :experience, experience_id]) %>
+          <p><%= t("cv.experience.benefit") %>: <%= t(:benefit, scope: [:cv, :experience, experience_id]) %>
+          <p><%= t("cv.experience.tech") %>: <%= experience.tech.join(", ") %>
         </article>
       <% end %>
     </section>
 
     <section>
-      <h2 class="mt-4 -mb-4 text-2xl"><%= t("cv.education.title") %></h2>
+      <h2><%= t("cv.education.title") %></h2>
 
       <% data.cv.education.each do |education_id, education| %>
         <article>
-          <h3 class="mt-4 text-xl"><%= education.fetch(:start) %> - <%= education.fetch(:end) %>: <%= t(:name, scope: [:cv, :education, education_id]) %></h3>
+          <h3><%= education.fetch(:start) %> - <%= education.fetch(:end) %>: <%= t(:name, scope: [:cv, :education, education_id]) %></h3>
 
-          <p class="mt-2"><%= t(:description, scope: [:cv, :education, education_id]) %>
-          <p class="mt-2"><%= t("cv.experience.tech") %>: <%= education.tech.join(", ") %>
+          <p><%= t(:description, scope: [:cv, :education, education_id]) %>
+          <p><%= t("cv.experience.tech") %>: <%= education.tech.join(", ") %>
         </article>
       <% end %>
     </section>

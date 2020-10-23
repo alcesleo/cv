@@ -1,17 +1,17 @@
 <nav class="flex justify-between my-6 print:hidden">
   <div class="font-sans text-lg space-x-4">
     <%= link_to t("nav.index"), "index.html",
-      :class => "text-gray-800 " + (current_page.path.include?("index.html") ? "font-bold select-none" : "underline") %>
+      :class => "text-gray-800 " + (current_page.path.include?("index.html") ? "font-bold cursor-default" : "underline") %>
     <%= link_to t("nav.cv"), "cv.html",
-      :class => "text-gray-800 " + (current_page.path.include?("cv.html") ? "font-bold select-none" : "underline") %>
+      :class => "text-gray-800 " + (current_page.path.include?("cv.html") ? "font-bold cursor-default" : "underline") %>
   </div>
 
   <div class="flex items-center">
     <a href="<%= switch_language(:sv) %>">
-      <img class="w-10" alt="Flag of Sweden" src="/images/flag-sv.svg" />
+      <img class="w-10 <%= 'cursor-default grayscale' if I18n.locale == :sv %>" alt="Flag of Sweden" src="/images/flag-sv.svg" />
     </a>
     <a href="<%= switch_language(:en) %>">
-      <img class="w-10 ml-1" alt="Flag of Great Britain" src="/images/flag-en.svg" />
+      <img class="w-10 ml-1 <%= 'cursor-default grayscale' if I18n.locale == :en %>" alt="Flag of Great Britain" src="/images/flag-en.svg" />
     </a>
   </div>
 

@@ -4,7 +4,7 @@
 # Don't require .html suffixes to pages
 activate :directory_indexes
 
-# Use /en/ and /sv/ root paths to languages
+# Use /en/ and /sv/ paths to translations
 activate :i18n, mount_at_root: false
 
 # Default language to Swedish

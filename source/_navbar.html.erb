@@ -6,12 +6,15 @@
       :class => "text-gray-800 " + (current_page.path.include?("cv.html") ? "font-bold cursor-default" : "underline") %>
   </div>
 
-  <div class="flex items-center">
-    <a href="<%= switch_language(:sv) %>">
-      <img class="w-10 <%= 'cursor-default grayscale' if I18n.locale == :sv %>" alt="Flag of Sweden" src="/images/flag-sv.svg" />
-    </a>
-    <a href="<%= switch_language(:en) %>">
-      <img class="w-10 ml-1 <%= 'cursor-default grayscale' if I18n.locale == :en %>" alt="Flag of Great Britain" src="/images/flag-en.svg" />
-    </a>
+  <div>
+    <% if I18n.locale == :en %>
+      <% link_to switch_language(:sv) do %>
+        <img class="w-10" alt="Flag of Sweden" src="/images/flag-sv.svg" />
+      <% end %>
+    <% else %>
+      <% link_to switch_language(:en) do %>
+        <img class="w-10" alt="Flag of Great Britain" src="/images/flag-en.svg" />
+      <% end %>
+    <% end %>
   </div>
 </nav>

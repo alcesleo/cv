@@ -3,8 +3,6 @@ title: CV - Jimmy Börjesson
 ---
 <div>
   <header>
-    <img class="float-right w-64 rounded-md" alt="Portrait" src="/images/portrait.jpg" />
-
     <h1 class="text-3xl"><%= t("cv.title") %></h1>
     <p><%= t("cv.tagline") %></p>
   </header>
@@ -12,12 +10,13 @@ title: CV - Jimmy Börjesson
   <main class="prose">
     <section>
       <article>
+        <img class="float-right w-40 md:w-64 rounded-md" alt="Portrait" src="/images/portrait.jpg" />
+
         <% t("cv.presentation.p").each do |paragraph| %>
           <p><%= paragraph %></p>
         <% end %>
 
         <h2><%= t("cv.personal.title") %></h2>
-
         <% t("cv.personal.p").each do |paragraph| %>
           <p><%= paragraph %></p>
         <% end %>

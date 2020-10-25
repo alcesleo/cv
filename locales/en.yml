@@ -32,6 +32,11 @@ en:
       benefit: Benefit
       tech: Technologies
 
+      wideco:
+        project: Modernize and speed up development of the company's web dashboard which visualizes and interacts with data from IoT-sensors, guided radar, and other types of measuring devices.
+        role: Senior frontend developer
+        benefit: The pace of development has markedly increased, improvements in the interface and responsivity has lead to a more robust user experience, and a more structured way of working with regular planning sessions and demos has been introduced.
+
       opatus:
         project: The company is providing a clinical ADHD-test administered using an iOS device. The administration interface is a Ruby on Rails site which has not been maintained since 2014, and is of dire need of upgrading and porting to current versions of libraries and frameworks to enable further development.
         role: Developer with responsibility for the administration tool and resident Ruby expert.

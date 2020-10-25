@@ -10,7 +10,9 @@
     <%= javascript_include_tag "site" %>
     <%= favicon_tag "/images/favicon-32x32.png" %>
   </head>
-  <body>
+
+  <!-- Eliminate alignment "jumps" by always showing the scrollbar -->
+  <body class="overflow-y-scroll">
     <div class="p-8 mx-auto max-w-screen-md">
       <%= partial "navbar" %>
       <%= yield %>

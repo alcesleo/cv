@@ -53,7 +53,7 @@ sv:
         role: Systemutvecklare med huvudsakligt ansvar för ett administrativt verktyg som företaget tillhandahåller.
         benefit: Företaget kunde släppa flera nya versioner av sitt administrationsverktyg som i huvudsak var utvecklade av Jimmy, dessa förbättrade stabiliteten, och lade till efterfrågade nya funktioner. Dessutom tillkom enhetstestning för all ny funktionalitet, och även all gammal funktionalitet som berördes vid buggfixar och ledde till en mycket stabilare kodbas med färre fel och högre konfidens vid release.
 
-      business-flow:
+      bitaddict-internal:
         project: Utveckla en proprietär webbtjänst med fokus på affärsnytta.
         role: Lead Developer med ansvar för teknikval och prioriteringar för andra utvecklare i projektet.
         benefit: Projektet kunde effektivt nyttja lediga timmar från ett flertal andra konsulter. Med en teknisk röd tråd från Jimmy utfördes projektet ekonomiskt och med lite overhead.

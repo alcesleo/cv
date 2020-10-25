@@ -16,6 +16,7 @@ experience:
   opatus:
     name: Opatus AB
     start: 2020-07
+    end: 2020-10
     tech:
       - Ruby/Rails
       - Linux
@@ -28,7 +29,6 @@ experience:
     name: Mentice AB
     start: 2019-10
     end: 2020-05
-
     tech:
       - JavaScript
       - TypeScript
@@ -56,7 +56,7 @@ experience:
       - Refactoring
       - TDD
 
-  business-flow:
+  bitaddict-internal:
     name: BitAddict AB
     start: 2019-09
     end: 2020-02

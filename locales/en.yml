@@ -47,7 +47,7 @@ en:
         role: Sole developer responsible for maintaining the administration tool.
         benefit: Several releases of the administration tool were developed, improving stability and adding requested new functionality.
 
-      business-flow:
+      bitaddict-internal:
         project: Develop a proprietary web-app focusing on business value.
         role: Lead Developer responsible for technological choices, priorities and supporting junior developers working on the project.
         benefit: The project could efficiently utilize available hours from several other consultants moving on and off the project within the company to bring the project forward, with Jimmy’s technical leadership and direction keeping the work coherent.

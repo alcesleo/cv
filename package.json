@@ -16,7 +16,9 @@
     "url": "https://github.com/alcesleo/cv/issues"
   },
   "homepage": "https://github.com/alcesleo/cv#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@tailwindcss/typography": "^0.2.0"
+  },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
     "css-loader": "^4.3.0",

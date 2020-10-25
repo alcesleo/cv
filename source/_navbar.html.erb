@@ -1,4 +1,4 @@
-<nav class="flex justify-between my-6 print:hidden">
+<nav class="flex justify-between print:hidden">
   <div class="font-sans text-lg space-x-4">
     <%= link_to t("nav.index"), "index.html",
       :class => "text-gray-800 " + (current_page.path.include?("index.html") ? "font-bold cursor-default" : "underline") %>
@@ -14,8 +14,4 @@
       <img class="w-10 ml-1 <%= 'cursor-default grayscale' if I18n.locale == :en %>" alt="Flag of Great Britain" src="/images/flag-en.svg" />
     </a>
   </div>
-
-  <%# <button class="p-2 font-bold text-gray-100 bg-green-500 rounded shadow-xs"> %>
-  <%#   Download as PDF %>
-  <%# </button> %>
 </nav>

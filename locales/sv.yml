@@ -6,6 +6,19 @@ sv:
     jsb: är ett enmans-konsultbolag som bedriver verksamhet inom webb- och systemutveckling i Göteborgsregionen. Jag kan stolt erbjuda högkvalitativa och robusta lösningar på stora och små problem, och har erfarenhet av en lång lista av ramverk och programmeringsspråk med mig efter mer än 10 års passionerad programmering.
     kvadrat: Företaget är anslutet till Kvadrat, Sveriges lyckligaste konsulter. Vi erbjuder våra kunder en unik kombination av konsultens expertis och egenföretagarens engagemang, attityd och motivation att alltid lyckas. Kvadrat bildades 1988 och idag är vi ca 500 Kvadratare med kontor i Stockholm, Göteborg, Malmö, Linköping, Norrköping, Jönköping, Växjö, Örebro, Borlänge och Sundsvall.
 
+  about:
+    title: Om mig
+    link: Om mig
+    expertise: Expertområden
+    links:
+      h: Länkar
+
+      github: GitHub
+      kvadrat: Kvadrat
+      blog: Min blogg
+      linkedin: JSB Digital Solutions AB på LinkedIn
+
+
   cv:
     title: CV - Jimmy Börjesson
     link: CV

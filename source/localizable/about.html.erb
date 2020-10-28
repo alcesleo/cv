@@ -1,0 +1,20 @@
+---
+title: about.title
+---
+<section class="space-y-4">
+  <article>
+    <h2 class="text-xl font-bold md:text-3xl"><%= t("about.expertise") %></h2>
+
+    <p class="italic"><%= data.about.skills.join(", ") %></p>
+  </article>
+
+  <article>
+    <h2 class="text-xl font-bold md:text-3xl"><%= t("about.links.h") %></h2>
+
+    <ol class="p-4 text-blue-700 underline">
+      <% data.about.links.each do |key, link| %>
+        <li class="list-disc"><%= link_to t("about.links.#{key}"), link %></li>
+      <% end %>
+    </ol>
+  </article>
+</section>

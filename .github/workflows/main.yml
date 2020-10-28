@@ -1,18 +1,22 @@
-name: Deploy
+name: Build and Deploy
 
 on:
   push:
     branches: [ master ]
-    
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+
+      - run: npm install
 
       - name: Deploy Middleman to Github Pages
         uses: yurikoval/middleman-gh-pages-action@v1.0.0
-
-

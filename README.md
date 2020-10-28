@@ -1,4 +1,4 @@
-# CV
+# [jsbdsab.se](https://jsbdsab.se/)
 
 ## Development
 
@@ -9,6 +9,8 @@ middleman serve
 ```
 
 ## Production
+
+Automatically deploys when pushing to `master`, alternatively:
 
 ```
 rake publish

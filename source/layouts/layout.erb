@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><%= current_page.data.title %></title>
+    <title><%= t(current_page.data.title) %></title>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
     <%= favicon_tag "/images/favicon-32x32.png" %>
@@ -13,6 +13,7 @@
 
   <!-- Eliminate alignment "jumps" by always showing the scrollbar -->
   <body class="overflow-y-scroll">
+
     <div class="p-8 mx-auto max-w-screen-md">
       <%= partial "navbar" %>
       <%= yield %>

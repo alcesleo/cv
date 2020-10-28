@@ -1,8 +1,8 @@
 <nav class="flex justify-between py-4 print:hidden">
   <div class="font-sans text-lg space-x-4">
-    <%= link_to t("nav.index"), "index.html",
+    <%= link_to t("index.link"), "index.html",
       :class => "text-gray-800 " + (current_page.path.include?("index.html") ? "font-bold cursor-default" : "underline") %>
-    <%= link_to t("nav.cv"), "cv.html",
+    <%= link_to t("cv.link"), "cv.html",
       :class => "text-gray-800 " + (current_page.path.include?("cv.html") ? "font-bold cursor-default" : "underline") %>
   </div>
 

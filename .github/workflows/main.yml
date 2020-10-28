@@ -20,3 +20,5 @@ jobs:
 
       - name: Deploy Middleman to Github Pages
         uses: yurikoval/middleman-gh-pages-action@master
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

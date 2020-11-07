@@ -3,17 +3,50 @@ title: about.title
 ---
 <section class="space-y-4">
   <article>
-    <h2 class="text-xl font-bold md:text-3xl"><%= t("about.expertise") %></h2>
+    <h2 class="mb-4 text-2xl font-bold md:text-3xl"><%= t("about.expertise") %></h2>
 
-    <p class="italic"><%= data.about.skills.join(", ") %></p>
+    <div class="flex flex-wrap box-border place-content-evenly">
+      <% data.about.skills.each.zip([
+        "bg-blue-600",
+        "bg-orange-400",
+        "bg-green-400",
+        "bg-blue-400",
+        "bg-green-400",
+        "bg-green-600",
+        "bg-green-600",
+        "bg-blue-700 text-gray-100",
+        "bg-red-700 text-gray-100",
+        "bg-gray-500",
+        "bg-gray-700 text-gray-100",
+        "bg-gray-600 text-gray-100",
+        "bg-orange-400",
+        "bg-blue-400",
+        "bg-orange-600",
+        "bg-purple-400",
+        "bg-blue-500",
+        "bg-purple-600",
+        "bg-blue-700 text-gray-100",
+        "bg-green-600",
+        "bg-green-300",
+      ]) do |skill, color| %>
+      <span class="inline-block p-4 font-bold text-lg m-2 rounded-sm <%= color %>"><%= skill %></span>
+    <% end %>
+    </div>
   </article>
 
   <article>
-    <h2 class="text-xl font-bold md:text-3xl"><%= t("about.links.h") %></h2>
+    <h2 class="mb-4 text-2xl font-bold md:text-3xl"><%= t("about.links.h") %></h2>
 
-    <ol class="p-4 text-blue-700 underline">
+    <ol class="font-bold text-gray-100 space-y-2">
       <% data.about.links.each do |key, link| %>
-        <li class="list-disc"><%= link_to t("about.links.#{key}"), link %></li>
+        <li>
+          <% link_to link do %>
+            <div class="flex block p-4 bg-gray-600 rounded-sm space-x-4">
+              <%= image_tag "icon-#{key}.png", class: "w-6 object-scale-down" %>
+              <span><%= t("about.links.#{key}") %></span>
+            </div>
+          <% end %>
+        </li>
       <% end %>
     </ol>
   </article>

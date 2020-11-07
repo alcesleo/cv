@@ -40,11 +40,9 @@ title: about.title
     <ol class="font-bold text-gray-100 space-y-2">
       <% data.about.links.each do |key, link| %>
         <li>
-          <% link_to link do %>
-            <div class="flex block p-4 bg-gray-600 rounded-sm space-x-4">
-              <%= image_tag "icon-#{key}.png", class: "w-6 object-scale-down" %>
-              <span><%= t("about.links.#{key}") %></span>
-            </div>
+          <% link_to link, class: "flex block p-4 bg-gray-600 rounded-sm space-x-4 focus:bg-gray-500" do %>
+            <%= image_tag "icon-#{key}.png", class: "w-6 object-scale-down" %>
+            <span><%= t("about.links.#{key}") %></span>
           <% end %>
         </li>
       <% end %>

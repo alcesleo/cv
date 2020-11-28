@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alcesleo/cv.git"
+    "url": "git+https://github.com/jsbdsab/jsbdsab.se.git"
   },
   "author": "Jimmy Börjesson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alcesleo/cv/issues"
+    "url": "https://github.com/jsbdsab/jsbdsab.se/issues"
   },
-  "homepage": "https://github.com/alcesleo/cv#readme",
+  "homepage": "https://github.com/jsbdsab/jsbdsab.se#readme",
   "dependencies": {
     "@tailwindcss/typography": "^0.2.0"
   },

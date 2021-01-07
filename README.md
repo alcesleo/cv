@@ -5,7 +5,7 @@
 ```sh
 bundle install
 npm install
-middleman serve
+bundle exec middleman serve
 ```
 
 ## Production

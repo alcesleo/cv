@@ -30,10 +30,10 @@ title: cv.title
         <article>
           <h3><%= experience.fetch(:start) %> - <%= experience.end || t("cv.experience.ongoing") %>: <%= experience.name %></h3>
 
-          <p><%= t("cv.experience.project") %>: <%= t(:project, scope: [:cv, :experience, experience_id]) %>
-          <p><%= t("cv.experience.role") %>: <%= t(:role, scope: [:cv, :experience, experience_id]) %>
-          <p><%= t("cv.experience.benefit") %>: <%= t(:benefit, scope: [:cv, :experience, experience_id]) %>
-          <p><%= t("cv.experience.tech") %>: <%= experience.tech.join(", ") %>
+          <p><span class="italic"><%= t("cv.experience.project") %>:</span> <%= t(:project, scope: [:cv, :experience, experience_id]) %>
+          <p><span class="italic"><%= t("cv.experience.role") %>:</span> <%= t(:role, scope: [:cv, :experience, experience_id]) %>
+          <p><span class="italic"><%= t("cv.experience.benefit") %>:</span> <%= t(:benefit, scope: [:cv, :experience, experience_id]) %>
+          <p><span class="italic"><%= t("cv.experience.tech") %>:</span> <%= experience.tech.join(", ") %>
         </article>
       <% end %>
     </section>
